@@ -1,3 +1,8 @@
+// GentleSpoon me@gentlespoon.com
+// Leetcode    Q065
+// Start       2019-01-17-14-01-05
+// Finish      2019-01-17-14-25-26
+
 /**
  * @param {string} s
  * @return {boolean}
