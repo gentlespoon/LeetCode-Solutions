@@ -11,7 +11,7 @@ return [0, 1].
  */
 
 // GentleSpoon me@gentlespoon.com
-// Leetcode    Q1
+// Leetcode    Q001
 // Start       2017-12-25-13-24-18
 // Finish      2017-12-25-13-37-16
 
