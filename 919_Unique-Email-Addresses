@@ -22,8 +22,8 @@ Each emails[i] contains exactly one '@' character.
 
 // GentleSpoon me@gentlespoon.com
 // Leetcode    Q002
-// Start       2019-02-20-15-07-53
-// Finish      2019-02-20-15-07-57
+// Start       2019-02-20-15-03-53
+// Finish      2019-02-20-15-05-57
 
 /*
 Runtime: 128 ms, faster than 11.21% of JavaScript online submissions for Unique Email Addresses.
