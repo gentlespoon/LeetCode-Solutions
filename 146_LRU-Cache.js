@@ -24,7 +24,7 @@ cache.get(4);       // returns 4
 
 
 // GentleSpoon me@gentlespoon.com
-// Leetcode    Q002
+// Leetcode    Q146
 // Start       2019-02-20 15:22:48
 // Finish      2019-02-20 15:57:52
 
