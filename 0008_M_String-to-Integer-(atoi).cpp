@@ -1,8 +1,9 @@
+// GentleSpoon me@gentlespoon.com
+// 0008 - Medium - String to Integer (atoi)
+// Start       2018-01-03-2-11-12
+// Finish      2018-01-03-2-15-15
+
 /*
-8. String to Integer (atoi)
-
-
-
 Implement atoi to convert a string to an integer.
 
 Hint: Carefully consider all possible input cases. If you want a challenge, please do not see below and ask yourself what are the possible input cases.
@@ -25,10 +26,7 @@ If no valid conversion could be performed, a zero value is returned. If the corr
  */
 
 
-// GentleSpoon me@gentlespoon.com
-// Leetcode    Q8
-// Start       2018-01-03-2-11-12
-// Finish      2018-01-03-2-15-15
+
 
 
 class Solution {
@@ -37,7 +35,7 @@ public:
         int ret = 0, sign = 1, i = str.find_first_not_of(' '), base = INT_MAX / 10;
         if (str[i] == '+' || str[i] == '-') sign = str[i++] == '+' ?: -1;
         while (isdigit(str[i])) {
-            if (ret > base || (ret == base && str[i] - '0' > 7)) 
+            if (ret > base || (ret == base && str[i] - '0' > 7))
                 return sign > 0 ? INT_MAX : INT_MIN;
             ret = 10 * ret + (str[i++] - '0');
         }

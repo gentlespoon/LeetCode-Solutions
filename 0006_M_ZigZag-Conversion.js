@@ -1,3 +1,9 @@
+// github.com/gentlespoon
+// 0006 - Medium - ZigZag Conversion
+// Start       2019-02-07-23-01-01
+// Finish      2019-02-07-23-12-16
+// Runtime: 116ms, beats 52.36% of JavaScript submissions.
+
 /*
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
@@ -25,10 +31,7 @@ Y A   H R
 P     I
 */
 
-// GentleSpoon me@gentlespoon.com
-// Leetcode    Q006
-// Start       2019-02-07-23-01-01
-// Finish      2019-02-07-23-12-16
+
 
 
 /**
@@ -58,7 +61,7 @@ var convert = function(s, numRows) {
                 down = true;
             } else {
                 row--;
-                
+
             }
         }
     }

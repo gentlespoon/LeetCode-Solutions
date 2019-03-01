@@ -1,3 +1,11 @@
+// github.com/gentlespoon
+// 0004 - Hard - Median of Two Sorted Arrays
+// 2019-02-28-08-46-24
+// 2019-02-28-08-52-19
+// Runtime: 40 ms, faster than 97.04% of C++ online submissions for Median of Two Sorted Arrays.
+// Memory Usage: 21.3 MB, less than 86.51% of C++ online submissions for Median of Two Sorted Arrays.
+
+
 /*
 There are two sorted arrays nums1 and nums2 of size m and n respectively.
 
@@ -16,17 +24,6 @@ nums2 = [3, 4]
 The median is (2 + 3)/2 = 2.5
 */
 
-
-// github.com/gentlespoon
-// Q494
-// 2019-02-28-08-46-24
-// 2019-02-28-08-52-19
-
-
-/*
-Runtime: 40 ms, faster than 97.04% of C++ online submissions for Median of Two Sorted Arrays.
-Memory Usage: 21.3 MB, less than 86.51% of C++ online submissions for Median of Two Sorted Arrays.
-*/
 
 class Solution {
 public:
