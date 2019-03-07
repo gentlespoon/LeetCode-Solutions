@@ -9,7 +9,7 @@ Could you do both operations in O(1) time complexity?
 
 Example:
 
-LRUCache cache = new LRUCache( 2 /* capacity */ );
+LRUCache cache = new LRUCache( 2 );
 
 cache.put(1, 1);
 cache.put(2, 2);
@@ -40,7 +40,7 @@ var LRUCache = function(capacity) {
     this.capacity = capacity;
 };
 
-/** 
+/**
  * @param {number} key
  * @return {number}
  */
@@ -55,8 +55,8 @@ LRUCache.prototype.get = function(key) {
     return this.cache.get(key);
 };
 
-/** 
- * @param {number} key 
+/**
+ * @param {number} key
  * @param {number} value
  * @return {void}
  */
@@ -65,7 +65,7 @@ LRUCache.prototype.put = function(key, value) {
         if (this.cache.size === this.capacity) {
             let removedKey = this.used.shift();
             this.cache.delete(removedKey);
-        } 
+        }
         this.used.push(key);
     } else {
         this.get(key);
