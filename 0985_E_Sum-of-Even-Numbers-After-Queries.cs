@@ -1,7 +1,7 @@
 // github.com/gentlespoon
 // 0985 - Easy - Sum of Even Numbers After Queries
-// Start       2020-01-08T01:42:33-07:00
-// Finish      2020-01-08T01:42:36-07:00
+// Start       2020-01-08T01:17:33-07:00
+// Finish      2020-01-08T01:31:50-07:00
 
 // Runtime: 384 ms, faster than 95.74% of C# online submissions for Sum of Even Numbers After Queries.
 // Memory Usage: 48.3 MB, less than 100.00% of C# online submissions for Sum of Even Numbers After Queries.
